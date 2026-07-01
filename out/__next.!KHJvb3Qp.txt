@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[7121,[],""]
+3:I[4581,[],""]
+4:I[8500,["500","static/chunks/500-c99b8dfd3de17c86.js","76","static/chunks/app/(root)/page-9fef50b984c12e32.js"],""]
+:HL["/_next/static/css/37d399a0da898c04.css","style"]
+0:{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/37d399a0da898c04.css","precedence":"next"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}],"notFound":[["$","main",null,{"id":"main-content","children":["$","section",null,{"className":"content-page content-header","children":[["$","h1",null,{"children":"Page not found"}],["$","p",null,{"children":"The requested page does not exist."}],["$","$L4",null,{"className":"button button-primary","href":"/en/","children":"Open Regex Workbench"}]]}]}],[]]}],null]}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TXOl6P2NtOKWHja3uffJT"}

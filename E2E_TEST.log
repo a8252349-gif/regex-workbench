@@ -1,0 +1,27 @@
+Regex Workbench final Playwright verification
+Date: 2026-07-01
+
+Final scenario total: 29 passed, 1 intentionally skipped in the desktop project.
+
+Desktop project:
+- 6 localized tester scenarios passed
+- same-page language switching passed
+- URL locale precedence over localStorage passed
+- replace and extract output passed
+- mobile-only overflow scenario skipped by design
+
+375x812 touch viewport:
+- 6 localized tester scenarios passed
+- same-page language switching passed
+- URL locale precedence over localStorage passed
+- replace and extract output passed
+- document-level horizontal overflow check passed
+
+390x844 touch viewport:
+- 6 localized tester scenarios passed
+- same-page language switching passed
+- URL locale precedence over localStorage passed
+- replace and extract output passed
+- document-level horizontal overflow check passed
+
+The sandbox system Chromium intermittently stopped responding after many consecutive browser launches, so the final scenarios were executed in multiple clean Chromium processes. Every scenario in the suite completed successfully in those runs.

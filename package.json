@@ -1,0 +1,45 @@
+{
+  "name": "regex-workbench",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "generate:public": "node scripts/generate-public-files.mjs",
+    "build": "npm run validate:env && npm run generate:public && next build --webpack && npm run audit:out",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "validate:env": "node scripts/check-environment.mjs",
+    "audit:i18n": "node scripts/check-i18n-keys.mjs && node scripts/check-untranslated-copy.mjs",
+    "audit:content": "node scripts/check-content-length.mjs && node scripts/check-duplicate-content.mjs",
+    "audit:seo": "node scripts/check-metadata.mjs && node scripts/check-hreflang.mjs && node scripts/check-html-lang.mjs && node scripts/check-sitemap.mjs && node scripts/check-structured-data.mjs",
+    "audit:links": "node scripts/check-internal-links.mjs",
+    "audit:ads": "node scripts/check-adsense-meta.mjs && node scripts/check-ads-txt.mjs",
+    "audit:regex": "node scripts/check-regex-examples.mjs",
+    "audit:out": "node scripts/check-generated-html.mjs && npm run audit:i18n && npm run audit:content && npm run audit:seo && npm run audit:links && npm run audit:ads && npm run audit:regex",
+    "audit:deployed": "node scripts/postdeploy-audit.mjs",
+    "preview": "serve out -l 4173"
+  },
+  "dependencies": {
+    "jszip": "3.10.1",
+    "next": "16.2.9",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.61.1",
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "cheerio": "1.2.0",
+    "eslint": "9.39.2",
+    "eslint-config-next": "16.2.9",
+    "serve": "14.2.5",
+    "typescript": "5.8.3",
+    "vitest": "4.1.9"
+  }
+}

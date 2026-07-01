@@ -1,0 +1,24 @@
+{
+  "locales": ["en", "ko", "ja", "es", "fr", "de"],
+  "pages": [
+    "", "tester", "replace", "extract", "file-filter", "explainer", "cheat-sheet", "guides", "resources", "how-it-works", "faq", "about", "contact", "privacy", "terms", "cookies", "accessibility", "editorial-policy", "security", "methodology"
+  ],
+  "guides": [
+    "javascript-regex-complete-guide",
+    "character-classes-escaping",
+    "capture-groups-named-groups",
+    "lookahead-lookbehind",
+    "greedy-vs-lazy",
+    "multiline-dotall-anchors",
+    "javascript-regex-replacement",
+    "extract-structured-data-logs",
+    "test-regex-multiple-strings",
+    "unicode-regex-javascript",
+    "regex-backtracking-redos",
+    "javascript-vs-python-pcre-java",
+    "reliable-regex-test-cases",
+    "when-not-to-use-regex",
+    "browser-regex-privacy"
+  ],
+  "lastModified": "2026-07-01"
+}

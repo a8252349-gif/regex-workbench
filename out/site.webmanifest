@@ -1,0 +1,9 @@
+{
+  "name": "Regex Workbench",
+  "short_name": "Regex",
+  "start_url": "/en/",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#3156d9",
+  "icons": []
+}
