@@ -1,4 +1,5 @@
 import "../globals.css";
+import "../contrast-fix.css";
 import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { locales, isLocale } from "@/src/i18n/locales";
