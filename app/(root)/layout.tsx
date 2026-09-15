@@ -1,4 +1,5 @@
 import "../globals.css";
+import "../contrast-fix.css";
 import type { ReactNode } from "react";
 import { AdSenseScript } from "@/src/components/adsense-script";
 
