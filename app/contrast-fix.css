@@ -1,0 +1,24 @@
+:root {
+  color-scheme: light !important;
+  --bg: #f5f7fb !important;
+  --surface: #ffffff !important;
+  --surface-2: #eef2f8 !important;
+  --text: #172033 !important;
+  --muted: #5d677a !important;
+  --border: #cdd5e2 !important;
+  --accent: #3156d9 !important;
+  --accent-strong: #2343b8 !important;
+  --accent-soft: #e8edff !important;
+  --success: #147a4b !important;
+  --danger: #b42318 !important;
+  --warning: #8a5a00 !important;
+  --mark: #ffe08a !important;
+  --focus: #111827 !important;
+}
+html, body { background: var(--bg); color: var(--text); }
+button, input, textarea, select, option { color: var(--text); }
+input, textarea, select { background: #fff; }
+button:not(.button-primary):not(.button-danger), .button:not(.button-primary) { background-color: #fff; color: var(--text); }
+.card, details, .tool-shell, .hero-card, .match-card, .privacy-popover { background: #fff; color: var(--text); }
+pre, .hero-code { background: #101728; color: #f5f7ff; }
+mark { color: #172033; }
