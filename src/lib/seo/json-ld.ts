@@ -38,7 +38,8 @@ export function websiteJsonLd(locale: Locale, content: PageContent) {
       inLanguage: locale,
       description: content.description,
       offers: { "@type": "Offer", price: "0", priceCurrency: "USD" }
-    }
+    },
+    faqJsonLd(content.faq)
   ];
 }
 
